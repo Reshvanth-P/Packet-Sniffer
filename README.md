@@ -1,0 +1,2 @@
+# Packet-Sniffer
+Wrote a python script that acts as a packet sniffer. The logic that follows is that we first select an interface from the list of available interfaces on our device and then read the traffic flowing that interface. When combined with an arp spoofer, this packet sniffer allows us to view the data flowing through a network and allows us to perform MITM attacks. If  the user uses any http site, we can then read his/her credentials(and other data) in clear text
